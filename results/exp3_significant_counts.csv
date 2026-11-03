@@ -1,0 +1,3 @@
+model,sig_gross,sig_net,total_feature_years,paper_sig_gross,paper_sig_net
+XGB,37,39,342,28,26
+FFN,42,64,342,24,33

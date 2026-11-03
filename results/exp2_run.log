@@ -1,0 +1,7 @@
+nohup: ignoring input
+[loader] batch ['WBA', 'K', 'MMC']...: HTTPError: 502 Server Error: Bad Gateway for url: https://quantx-api.limex.pro/apis/dataloader/fetch-ohlcvs
+[loader] fetched batch 1/1
+[pipeline] loading cached core features from results/_core_cache_53067b7cc5d1.pkl
+[exp2] computing attributions for XGB
+[exp2] computing attributions for FFN
+[exp2] done

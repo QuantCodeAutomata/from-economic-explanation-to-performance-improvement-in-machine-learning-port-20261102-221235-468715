@@ -1,0 +1,1365 @@
+nohup: ignoring input
+[loader] batch ['WBA', 'K', 'MMC']...: HTTPError: 502 Server Error: Bad Gateway for url: https://quantx-api.limex.pro/apis/dataloader/fetch-ohlcvs
+[loader] fetched batch 1/1
+[pipeline] loading cached core features from results/_core_cache_53067b7cc5d1.pkl
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] XGB: c_IS=1 bps -> recompute attribution
+[pipeline:XGB] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] XGB: c_IS=3 bps -> recompute attribution
+[pipeline:XGB] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] XGB: c_IS=5 bps -> recompute attribution
+[pipeline:XGB] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] XGB: c_IS=7 bps -> recompute attribution
+[pipeline:XGB] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] XGB: c_IS=9 bps -> recompute attribution
+[pipeline:XGB] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:XGB] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] FFN: c_IS=1 bps -> recompute attribution
+[pipeline:FFN] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] FFN: c_IS=3 bps -> recompute attribution
+[pipeline:FFN] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] FFN: c_IS=5 bps -> recompute attribution
+[pipeline:FFN] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] FFN: c_IS=7 bps -> recompute attribution
+[pipeline:FFN] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+/workspace/project/src/pipeline.py:167: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  _eps_next = eps.shift(-1).stack(dropna=False).rename("eps_next").reset_index()
+[exp6] FFN: c_IS=9 bps -> recompute attribution
+[pipeline:FFN] vintage 1/19 2006-01-03
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 2/19 2007-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 3/19 2008-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 4/19 2009-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 5/19 2010-01-05
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 6/19 2011-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 7/19 2012-01-04
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 8/19 2013-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 9/19 2014-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 10/19 2015-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 11/19 2016-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 12/19 2017-01-06
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 13/19 2018-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 14/19 2019-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 15/19 2020-01-09
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 16/19 2021-01-08
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 17/19 2022-01-07
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 18/19 2023-01-10
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[pipeline:FFN] vintage 19/19 2024-01-11
+/workspace/project/src/pipeline.py:232: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  oos_slice[feature_names] = oos_slice[feature_names].values * lam[np.newaxis, :]
+[exp6] done

@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+# cached market data (never commit)
+data/cache/
+*.parquet.cache
+results/_core_cache_*.pkl
+results/*.pkl
+# Allow results outputs (deliverable artefacts)
+!results/*.csv
+!results/*.json
+!results/*.png
+!results/*.md
+!results/*.log
